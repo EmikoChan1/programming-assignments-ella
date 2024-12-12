@@ -1,0 +1,37 @@
+.bottomalign {
+    vertical-align: bottom;
+}
+a {
+    text-decoration: underline;
+}
+input {
+    border: 0;
+    border-bottom: 2px solid black
+}
+input:focus {
+    outline:none
+}
+largeGap {
+    vertical-align: text-top;
+    margin: 340px;
+}
+mediumGap {
+    vertical-align: text-top;
+    margin: 80px;
+}
+littleGap {
+    vertical-align: text-top;
+    margin: 40px;
+}
+tinyGap {
+    vertical-align: text-top;
+    margin: 1px;
+}
+yn {
+    vertical-align: text-bottom;
+    margin: 385px;
+}
+bigGap {
+    vertical-align: text-top;
+    margin: 120px;
+}

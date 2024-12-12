@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div style="width:1000px;">
+        <br>
+        <br>
+        <img src="head.webp" width="1000" alt="">
+        <img src="Capturee.webp" width="1000" alt="">
+
+        <!-- Applicant Information-->
+        <img src="applicantinformation.webp" width="1000" alt="">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Full Name: &nbsp; &nbsp;</label><input style="width: 600px;" type="text" id="name">
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; &nbsp; Date:</label><input style="width: 188px;" type="date" id="date">
+        <br>
+        <bigGap style="font-family:Arial, Helvetica; font-size: medium;"><i>&nbsp;&nbsp; Last</i></bigGap>
+        <bigGap style="font-family:Arial, Helvetica; font-size: medium;"><i>&nbsp; First</i></bigGap>
+        <bigGap style="font-family:Arial, Helvetica; font-size: medium;"><i>&nbsp; M.I.</i></bigGap>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Address: &nbsp;&nbsp; &nbsp;&nbsp;  </label><input style="width: 864px;" type="text" id="address">
+        <br>
+        <bigGap style="font-family:Arial, Helvetica; font-size: medium;">&nbsp;&nbsp; <i>Street Address</i></bigGap>
+        <littleGap style="font-family:Arial, Helvetica; font-size: medium;"><i>City</i></littleGap>
+        <bigGap style="font-family:Arial, Helvetica; font-size: medium;">&nbsp; &nbsp; &nbsp;&nbsp; <i>State</i></bigGap>
+        <smallGap style="font-family:Arial, Helvetica; font-size: medium;">&nbsp;&nbsp; <i>Zip Code</i></smallGap>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Phone: &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;</label><input style="width: 360px;" type="number" id="phone">
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Email</label><input style="width: 440px;" type="email" id="Email">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Data Available: &nbsp; </label><input style="width: 150px;" type="text" id="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; Social Security No.: &nbsp; </label><input style="width: 160px;" type="number" id="ssnumber" placeholder="&nbsp; ###-##-####">
+        <label style="font-family:Arial, Helvetica; font-size: large;"> &nbsp; Desired Salary: $</label><input style="width: 164px;" type="number" id="salary">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; What position are</label> 
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; you applying for?: &nbsp; &nbsp; &nbsp; </label><input style="width: 786px;" type="text" id="applying">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; How did you learn</label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; about this position? &nbsp;&nbsp;&nbsp;</label><input style="width: 788px;" type="text" id="applying">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"> YES &nbsp;&nbsp; NO</yn>
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; &nbsp; &nbsp; YES &nbsp;&nbsp; NO</label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Are you a citizen of the United States? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="citizenY" name="citizenRad"> &nbsp; &nbsp; &nbsp;<input style="height: 20px;width: 20px;" type="radio" id="citizenN" name="citizenRad">
+        <label style="font-family:Arial, Helvetica; font-size: larger;">&nbsp; &nbsp;&nbsp;&nbsp; If no, are you authorized to work in the U.S.? &nbsp;&nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="authY" name="authRad"> &nbsp; &nbsp; &nbsp;<input style="height: 20px;width: 20px;" type="radio" id="authN" name="authRad">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"> YES &nbsp;&nbsp; NO</yn>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Have you ever worked for this company? &nbsp; &nbsp;&nbsp;&nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="workedAlreadyY" name="workedAlreadyRad">  &nbsp;&nbsp;&nbsp;&nbsp; <input style="height: 20px;width: 20px;" type="radio" id="workedAlreadyN" name="workedAlreadyRad">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; If yes, when? &nbsp;</label><input style="width: 355px;" type="text" id="text">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"> YES &nbsp;&nbsp; NO </yn>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Have you ever been convicted of a felony? &nbsp;&nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="felonyY" name="felonyRad"> &nbsp; &nbsp;&nbsp; <input style="height: 20px;width: 20px;" type="radio" id="felonyN" name="felonyRad">
+        <br>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; If yes, explain: &nbsp;</label><input style="width: 841px;" type="text" id="text">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Applocant Information-->
+
+        <img src="Capture2.webp" width="1000" alt="">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; High School: &nbsp; &nbsp;</label><input style="width: 265px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address:</label><input style="width: 486px;" type="text">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"><littleGap>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</littleGap> YES &nbsp;&nbsp; NO </yn>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp;&nbsp; </label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  To:</label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; Did you graduate? &nbsp; &nbsp; </label><input style="height: 20px;width: 20px;" type="radio" id="gradOneY" name="gradOneRad"> &nbsp; &nbsp;&nbsp; <input style="height: 20px;width: 20px;" type="radio" id="gradOneN" name="gradOneRad">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; Diploma:</label><input style="width: 276px;" type="text">
+        <br>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; College: &nbsp; &nbsp;</label><input style="width: 305px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address:</label><input style="width: 486px;" type="text">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"><littleGap>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</littleGap> YES &nbsp;&nbsp; NO </yn>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp;&nbsp; </label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  To:</label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; Did you graduate? &nbsp; &nbsp; </label><input style="height: 20px;width: 20px;" type="radio" id="gradTwoY" name="gradTwoRad"> &nbsp; &nbsp;&nbsp; <input style="height: 20px;width: 20px;" type="radio" id="gradTwoN" name="gradTwoRad">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; Degree:</label><input style="width: 283px;" type="text">
+        <br>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Other: &nbsp;&nbsp;</label><input style="width: 325px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address:</label><input style="width: 487px;" type="text">
+        <br>
+        <br>
+        <yn style="font-family:Arial, Helvetica; font-size: larger;"><littleGap>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</littleGap> YES &nbsp;&nbsp; NO </yn>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp;&nbsp; </label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  To:</label><input style="width: 92px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; Did you graduate? &nbsp; &nbsp; </label><input style="height: 20px;width: 20px;" type="radio" id="gradThreeY" name="gradThreeRad"> &nbsp; &nbsp;&nbsp; <input style="height: 20px;width: 20px;" type="radio" id="gradThreeN" name="gradThreeRad">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; Degree:</label><input style="width: 284px;" type="text">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- References -->
+
+        <img src="references.webp" width="1000" alt="">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"><i>&nbsp; Please list three professional references.</i></label>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Full Name: &nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Relationship:</label><input style="width: 216px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Phone:</label><input style="width: 218px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Email: &nbsp;&nbsp;&nbsp;</label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 976px;" type="text">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 976px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Full Name: &nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Relationship:</label><input style="width: 216px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Phone:</label><input style="width: 218px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Email: &nbsp;&nbsp;&nbsp;</label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 976px;" type="text">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 976px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Full Name: &nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Relationship:</label><input style="width: 216px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;&nbsp;</label><input style="width: 520px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Phone:</label><input style="width: 218px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Email: &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</label><input style="width: 868px;" type="text">
+        <br>
+        <br>
+
+        <!-- Previous Employment-->
+
+        <img src="previousemployment.webp" width="1000" alt="">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Phone:</label><input style="width: 208px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address: &nbsp;&nbsp; &nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp;&nbsp; Supervisor:</label><input style="width: 212px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Job Title: &nbsp;&nbsp;&nbsp;&nbsp;</label><input style="width: 240px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; Starting Salary:$</label><input style="width: 122px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; Ending Salary:$</label><input style="width: 162 px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Responsibilities: &nbsp;&nbsp;</label><input style="width: 820px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; </label><input style="width: 130px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; To:</label><input style="width: 155px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; Reason for Leaving:</label><input style="width: 325px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <largeGap> &nbsp; YES &nbsp;  &nbsp;&nbsp; NO</littleGap> </label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; May we contact your previous supervisor for a reference? &nbsp; &nbsp; &nbsp; &nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="contactOneY" name="contactOne"> &nbsp; &nbsp; &nbsp; &nbsp; <input style="height: 20px;width: 20px;" type="radio" id="contactOneN" name="contactOne">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Phone:</label><input style="width: 208px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address: &nbsp;&nbsp; &nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp;&nbsp; Supervisor:</label><input style="width: 212px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Job Title: &nbsp;&nbsp;&nbsp;&nbsp;</label><input style="width: 240px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; Starting Salary:$</label><input style="width: 122px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; Ending Salary:$</label><input style="width: 162 px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Responsibilities: &nbsp;&nbsp;</label><input style="width: 820px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; </label><input style="width: 130px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; To:</label><input style="width: 155px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; Reason for Leaving:</label><input style="width: 325px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <largeGap> &nbsp; YES &nbsp;  &nbsp;&nbsp; NO</littleGap> </label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; May we contact your previous supervisor for a reference? &nbsp; &nbsp; &nbsp; &nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="contactTwoY" name="contactTwo"> &nbsp; &nbsp; &nbsp; &nbsp; <input style="height: 20px;width: 20px;" type="radio" id="contactTwo" name="contactTwo">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Company: &nbsp;&nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Phone:</label><input style="width: 208px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Address: &nbsp;&nbsp; &nbsp;</label><input style="width: 530px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp;&nbsp; Supervisor:</label><input style="width: 212px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Job Title: &nbsp;&nbsp;&nbsp;&nbsp;</label><input style="width: 240px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; Starting Salary:$</label><input style="width: 122px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;&nbsp; &nbsp; &nbsp; Ending Salary:$</label><input style="width: 162 px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp;  Responsibilities: &nbsp;&nbsp;</label><input style="width: 820px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; From: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; </label><input style="width: 130px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; To:</label><input style="width: 155px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; Reason for Leaving:</label><input style="width: 325px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <largeGap> &nbsp; YES &nbsp;  &nbsp;&nbsp; NO</littleGap> </label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; May we contact your previous supervisor for a reference? &nbsp; &nbsp; &nbsp; &nbsp;</label><input style="height: 20px;width: 20px;" type="radio" id="contactThreeY" name="contactThree"> &nbsp; &nbsp; &nbsp; &nbsp; <input style="height: 20px;width: 20px;" type="radio" id="contactThree" name="contactThree">
+        <br>
+        <br>
+
+        <!-- Skills and Abilities -->
+
+        <img src="SkillsAndAbilities.webp" width="1000" alt="">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; What skills and abilities qualify you for this position?</label><input style="width: 534px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Why are you interested in working for this company?</label><input style="width: 529px;" type="text">
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; </label><input style="width: 974px;" type="text">
+        <br>
+
+        <!-- Disclaimer and Signature -->
+
+        <img src="DisclamerAndSignature.webp" width="1000" alt="">
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; <i> I certify that my answers are true and complete to the best of my knowledge.</i> </label>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; <i>If this application leads to employment, I understand that false or misleading information in my application or</i>  </label>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; <i>interview may result in my release.</i> </label>
+        <br>
+        <br>
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Signature: &nbsp; </label><input style="width: 590px;" type="text">
+        <label style="font-family:Arial, Helvetica; font-size: larger;"> &nbsp; Date:</label><input style="width: 216px;" type="text">
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 25px 1px;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+.gray {
+    background-color: lightgray;
+}
+.left {
+    text-align: left;
+}
+/* Ella Peck 9/5/2024 */

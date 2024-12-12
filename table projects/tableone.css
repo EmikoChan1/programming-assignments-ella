@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 25px 1px;
+}
+th {
+    font-size: 20px;
+}
+td {
+    font-size: 14px;
+}
+/* Ella Peck 9/5/2024 */

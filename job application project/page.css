@@ -1,0 +1,29 @@
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+td {
+    vertical-align: top ;
+}
+.bottomalign {
+vertical-align: bottom;
+}
+a {
+    text-decoration: underline;
+}
+input {
+    border: 0;
+    border-bottom: 2px solid black
+}
+input:focus {
+    outline:none
+}
+padding {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+/* #space {
+    height: 10px;
+    width: 100px;
+} */
